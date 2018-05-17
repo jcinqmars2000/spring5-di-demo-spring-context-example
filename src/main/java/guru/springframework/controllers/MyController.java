@@ -8,8 +8,8 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class MyController {
 
-    public String hello(){
-        System.out.println("Hello!!! ");
+    public String hello(String name){
+        System.out.println("Hello!!! " + name);
 
         return "foo";
     }
